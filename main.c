@@ -18,4 +18,5 @@ int main (int argc, char *argv[]) {
 	
 	
 	printf("y=%d, m=%d", y, m);
+	return 0;
 }
