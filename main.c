@@ -6,17 +6,14 @@
 #include <stdio.h>
 
 int main (int argc, char *argv[]) {
-	int x, y, z, m;
-	int a, b, c;
-	x = 1;
-	y = 3; z = 5;
-	a = 3;
-	b = 4;
-	c = 5;
-	y = a*x*x + b*x + c;
-	m = (x+y+z)/3;
+	int x, y;
+	printf("두 개의 정수를 입력하세요: ");
+	scanf("%i %i", &x ,&y);
 	
-	
-	printf("y=%d, m=%d", y, m);
+	printf("%d + %d = %d\n",x, y, x+y);
+	printf("%d - %d = %d\n",x, y, x-y);
+	printf("%d * %d = %d\n",x, y, x*y);
+	printf("%d / %d = %d\n",x, y, x/y);
+	printf("%d %% %d = %d\n",x, y, x%y);
 	return 0;
 }
